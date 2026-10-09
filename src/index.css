@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: mohit;
+  src: url("./Racing.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: ganpati;
+  src: url(./Blade.otf) format("truetype");
+}
+@font-face {
+  font-family: ravan;
+  src: url(./Blacksword.otf) format("truetype");
+}
+@font-face {
+  font-family: ram;
+  src: url(./Latenza.otf) format("truetype");
+}
+.grand {
+  font-size: 48px;
+  font-family: "ravan", sans-serif;
+  color: rgb(255, 173, 80);
+}
+.battery {
+  font-size: 48px;
+  font-family: "ram", sans-serif;
+}
+
+.pro {
+  font-size: 48px;
+  letter-spacing: 2px;
+  font-family: "mohit", sans-serif;
+}
+.deva {
+  font-size: 48px;
+  letter-spacing: 3px;
+  font-family: "ganpati", sans-serif;
+  color: #760776;
+}

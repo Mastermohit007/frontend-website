@@ -1,0 +1,19 @@
+.sign_in_btn {
+  box-shadow:
+    rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  background-color: rgb(158, 77, 219);
+  transition: 0.5 ease-in-out;
+}
+.sign_in_btn:hover {
+  transform: scale(1.25);
+}
+
+.open_drop_down {
+  background: #186b0a;
+  color: white;
+}
+.btn_hover:hover {
+  background-color: burlywood;
+  color: #186b0a;
+}
